@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Advanced Search</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1"/>
+    <link rel="stylesheet" href="google-type-search.css">
+</head>
+<body>
+<nav class="advanced-nav-container">
+    <ul class="advanced-nav-items-container">
+        <li>
+            <div id="nav-item-logo">
+                <img src="googleLogo.png" alt="Google Logo">
+            </div>
+        </li>
+        <li>
+            <div class="nav-item">
+                <a href="index.html">Back to Search</a>
+            </div>
+        </li>
+    </ul>
+</nav>
+
+
+<div id="advanced-heading">
+    <div>Advanced Search</div>
+    <div>
+        <hr>
+    </div>
+</div>
+
+
+<form action="https://www.google.com/search">
+    <div class="advanced-form-container">
+
+        <div id="title-instructions-container">
+            <div id="title"> Find pages with...</div>
+            <div id="instructions"> To do this in the search box.</div>
+        </div>
+
+        <div id="advanced-form-input-rows">
+            <ul>
+                <li class="form-row">
+                    <label for="atw"> all these words:</label>
+                    <input type="text" id="atw" name="as_q">
+                    <span class="form-help">Type the important words: tri-colour rat terrier</span>
+                </li>
+                <li class="form-row">
+                    <label for="tewop"> this exact word or phrase:</label>
+                    <input type="text" id="tewop" name="as_epq">
+                    <span class="form-help">Put exact words in quotes: "rat terrier"</span>
+
+                </li>
+                <li class="form-row">
+                    <label for="aotw"> any of these words:</label>
+                    <input type="text" id="aotw" name="as_oq">
+                    <span class="form-help">Type OR between all the words you want: miniature OR standard</span>
+
+                </li>
+                <li class="form-row">
+                    <label for="notw"> none of these words:</label>
+                    <input type="text" id="notw" name="as_eq">
+                    <span class="form-help">Put a minus sign just before words that you don't want: -rodent, -"Jack Russell"</span>
+
+                </li>
+                <li class="form-row">
+                    <input id="advanced-search-button" type="submit" value="Advanced Search">
+                </li>
+            </ul>
+        </div>
+
+
+
+
+
+
+    </div>
+</form>
+
+
+</body>
+</html>
