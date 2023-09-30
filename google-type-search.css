@@ -79,7 +79,7 @@ form{
 }
 .logo-text-wrapper{
     font-size: 1.9vw;
-    border: deepskyblue solid 2px;
+/*     border: deepskyblue solid 2px; */
     color: #4285f4;
     position: absolute;
     right: 1px;
